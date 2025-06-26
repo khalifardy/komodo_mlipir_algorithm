@@ -84,7 +84,7 @@ pytest-mock>=3.6.0
 ## 🎯 Quick Start
 
 ```python
-from optimizer.KomodoMlipirAlgorithm import KomodoMlipirAlgorithm
+from optimizer.algorithm.komodo_mlipir_algorithm import KomodoMlipirAlgorithm
 
 # Define objective function (maximize)
 def sphere_function(x):
@@ -112,7 +112,7 @@ print(f"Best fitness: {results['best_fitness']}")
 ### 1. Basic Usage
 
 ```python
-from optimizer import KMA  # Using alias
+from optimizer.algorithm.komodo_mlipir_algorithm  import KMA  # Using alias
 
 # Define your optimization problem
 def objective_function(x):
@@ -232,7 +232,7 @@ optimizer = KMA(
 
 ```python
 import numpy as np
-from optimizer import KMA
+from optimizer.algorithm.komodo_mlipir_algorithm  import KMA
 import matplotlib.pyplot as plt
 
 # Sphere function
