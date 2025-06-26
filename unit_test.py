@@ -13,7 +13,7 @@ from typing import List, Tuple
 
 # Import kelas yang akan ditest
 # Asumsi: KomodoMlipirAlgorithm ada di file kma.py
-from optimizer.KomodoMlipirAlgorithm import KomodoMlipirAlgorithm,KMA
+from optimizer.algorithm import KomodoMlipirAlgorithm,KMA
 
 
 class TestKomodoMlipirAlgorithmInitialization:
